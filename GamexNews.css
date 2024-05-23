@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #ffac43;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.main-slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.main-slider article {
+    margin: 10px;
+}
+
+.main-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.latest-news, .popular-reviews, .upcoming-releases {
+    margin: 20px 0;
+}
+
+.latest-news h2, .popular-reviews h2, .upcoming-releases h2 {
+    border-bottom: 2px solid #00aced;
+    padding-bottom: 5px;
+}
+
+.latest-news article, .popular-reviews article, .upcoming-releases article {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.latest-news img, .popular-reviews img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social-media a {
+    color: #00aced;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .newsletter form {
+    display: flex;
+}
+
+footer .newsletter input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+footer .contact-info {
+    color: #ffffff;
+}
